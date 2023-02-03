@@ -1,0 +1,6 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_gg_v4_0_1_nrf52840
+	bool "gg_v4_0_1_nrf52840"
+	depends on SOC_NRF52840_QIAA

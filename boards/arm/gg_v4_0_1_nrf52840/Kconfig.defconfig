@@ -1,0 +1,21 @@
+# Copyright (c) 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+if BOARD_gg_v4_0_1_nrf52840
+
+config BOARD
+	default "gg_v4_0_1_nrf52840"
+
+config BT_CTLR
+   default BT
+
+
+##if USB_DEVICE_STACK
+
+# Enable UART driver, needed for CDC ACM
+##config SERIAL
+##	default y
+
+##endif # USB_DEVICE_STACK
+
+endif
